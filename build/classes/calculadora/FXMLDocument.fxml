@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="328" prefWidth="390" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora.FXMLDocumentController">
+    <children>
+        <!-- <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" /> -->
+        <!-- <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label2" /> -->
+        <TextField layoutX="20" layoutY="20" fx:id="cuadro" minWidth="350" minHeight="47"/>
+        <Button layoutX="20" layoutY="90" onAction="#siete" text="7" fx:id="boton7" minWidth="80" minHeight="47" textFill="blue"/>
+        <Button layoutX="110" layoutY="90" onAction="#ocho" text="8" fx:id="boton8" minWidth="80" minHeight="47" textFill="blue"/>
+        <Button layoutX="200" layoutY="90" onAction="#nueve" text="9" fx:id="boton9" minWidth="80" minHeight="47" textFill="blue"/>
+        <Button layoutX="290" layoutY="90" onAction="#div" text="÷" fx:id="botondiv" minWidth="80" minHeight="47" textFill="blue"/>
+        
+        <Button layoutX="20" layoutY="147"  onAction="#cuatro" text="4" fx:id="boton4" minWidth="80" minHeight="47" textFill="blue"/>
+        <Button layoutX="110" layoutY="147" onAction="#cinco" text="5" fx:id="boton5" minWidth="80" minHeight="47" textFill="blue"/>
+        <Button layoutX="200" layoutY="147" onAction="#seis" text="6" fx:id="boton6" minWidth="80" minHeight="47" textFill="blue"/>
+        <Button layoutX="290" layoutY="147" onAction="#mul" text="X" fx:id="botonmul" minWidth="80" minHeight="47" textFill="blue"/>
+        
+        <Button layoutX="20" layoutY="204"  onAction="#uno" text="1" fx:id="boton1" minWidth="80" minHeight="47" textFill="blue"/>
+        <Button layoutX="110" layoutY="204" onAction="#dos" text="2" fx:id="boton2" minWidth="80" minHeight="47" textFill="blue"/>
+        <Button layoutX="200" layoutY="204" onAction="#tres" text="3" fx:id="boton3" minWidth="80" minHeight="47" textFill="blue"/>
+        <Button layoutX="290" layoutY="204" onAction="#men" text="-" fx:id="botonmen" minWidth="80" minHeight="47" textFill="blue"/>
+        
+        <Button layoutX="20" layoutY="261" onAction="#cero" text="0" fx:id="boton0" minWidth="170" minHeight="47" textFill="blue"/>
+        <Button layoutX="200" layoutY="261" text="+" onAction="#mas" fx:id="botonmas" minWidth="80" minHeight="47" textFill="blue"/>
+        <Button layoutX="290" layoutY="261" onAction="#igual" text="=" fx:id="botonigual" minWidth="80" minHeight="47" textFill="blue"/>
+    </children>
+</AnchorPane>
